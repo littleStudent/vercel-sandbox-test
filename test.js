@@ -12,7 +12,7 @@ let fs = require("fs");
 // elementExists
 let elementName = "div";
 let startIndex = 10;
-let code = fs.readFileSync(".test.html", "utf8");
+let code = fs.readFileSync("./test.html", "utf8");
 
 test(
   "Make sure there's an opening " +
