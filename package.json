@@ -1,12 +1,23 @@
 {
   "name": "vercel-falcon-starter",
   "module": "index.ts",
-  "type": "module",
-  "private": true,
+  "scripts": {
+    "start": "node ./test.js"
+  },
+  "dependencies": {
+    "chai": "^6.2.1",
+    "chai-dom": "^1.12.1",
+    "chai-things": "^0.2.0",
+    "deep-equal": "^2.2.3",
+    "jquery": "^3.7.1",
+    "jsdom": "^27.2.0",
+    "jsdom-global": "^3.0.2",
+    "node-html-parser": "^7.0.1",
+    "rewire": "^9.0.1"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
-  "peerDependencies": {
-    "typescript": "^5"
-  }
+  "private": true,
+  "type": "commonjs"
 }
